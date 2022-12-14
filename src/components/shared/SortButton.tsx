@@ -1,5 +1,5 @@
 import React, { FC, useEffect, useState } from 'react';
-import styles from '../../../styles/Shared.module.css';
+import styles from '../../../styles/SortButton.module.css';
 
 const SortButton: FC = ({ onSort }: SortButtonProps) => {
   const sortOptions = {

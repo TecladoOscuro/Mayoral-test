@@ -25,3 +25,9 @@ Funcionalidad a implementar:
 - Crea los test unitarios que creas conveniente
 
 Notas:
+
+- Me he tenido que formar un poco con Next.js ya que no lo había usado nunca. Aunque en la prueba tampoco se saca jugo de sus métodos.
+- Me he tenido que adaptar a usar React.js con Typescript, ya que normalmente lo uso con js vanilla.
+- Los tests se han hecho, pero no se han probado ya que por problemas con ciertos archivos de TS en mi PC me daban bastantes errores, y al arreglarlos salían más. He decidico escribirlos y no ejecutarlos, confiando en que están bien hechos por mi experiencia.
+- La esctructura de archivos quizás no siga las mejores practicas de next.js. Como he comentado, no estoy familiarizado con el framework y tiene algunas cosas diferentes a usar React.js a secas.
+- No he usado ninguna librería extra, ya que entendía por la descripción de la prueba que no se permitía. Hubiese usado algun posprocesador de css y alguna librería de componentes para agilizar el trabajo.

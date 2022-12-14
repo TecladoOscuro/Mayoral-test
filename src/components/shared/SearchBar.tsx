@@ -1,5 +1,5 @@
 import React, { FC, useEffect, useState } from 'react';
-import styles from '../../../styles/Shared.module.css';
+import styles from '../../../styles/SearchBar.module.css';
 
 const SearchBar: FC = ({ onFilter }: SearchBarProps) => {
   const [inputValue, setinputValue] = useState('');

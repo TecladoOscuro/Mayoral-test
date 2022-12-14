@@ -1,0 +1,12 @@
+.sortBtn {
+  margin-left: 16px;
+  background-color: #2971ce;
+  border-radius: 6px;
+  border: 2px solid #d8e8f8;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 0.5vw;
+  padding: 11px 31px;
+}
