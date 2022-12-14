@@ -1,0 +1,113 @@
+/* home page styles*/
+.mainContainer {
+  padding: 64px;
+}
+
+/* shirt container styles */
+.simulateMobileView {
+  max-width: 25%;
+  margin: auto;
+}
+
+.simulateMobileView__divider {
+  width: 100%;
+  margin-top: 16px;
+  margin-bottom: 32px;
+  border-bottom: 1px solid grey;
+}
+.shirtsListContainer {
+  display: flex;
+  flex-wrap: wrap;
+  /* margin-top: 32px; */
+  width: 100%;
+}
+
+.shirtContainerHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.shirtContainerHeader__headerSection {
+  display: flex;
+  width: 100%;
+}
+.shirtContainerHeader__buttonGroup {
+  display: flex;
+}
+.shirtContainerHeader__buttonGroup__button {
+  font-size: 40px;
+  color: grey;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* cards styles*/
+.cardContainer {
+  box-shadow: 0px 0px 6px 0px #d8e8f8;
+  width: 20%;
+  margin-right: 16px;
+  margin-bottom: 16px;
+  padding: 16px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardContainer__middleSection__descriptionSection {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cardContainer__middleSection__descriptionSection__cardDescription {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  color: #737375;
+  font-size: 1vw;
+}
+
+.cardContainer__middleSection {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardContainer__middleSection__discountSection {
+  min-height: 32px;
+}
+.cardContainer__middleSection__discountSection__discountPrice {
+  color: #e1a29f;
+  font-size: 1vw;
+}
+
+.cardContainer__middleSection__priceSection {
+  margin-top: 16px;
+  min-height: 32px;
+}
+.cardContainer__middleSection__priceSection__price {
+  color: #6d6d6e;
+  font-size: 1.2vw;
+}
+.cardContainer__middleSection__priceSection__price__applyDiscount {
+  text-decoration: line-through;
+  color: #6d6d6e;
+}
+
+.cardContainer__middleSection__moreColoursSection {
+  min-height: 32px;
+  color: #737375;
+  cursor: pointer;
+  font-size: 1vw;
+}
+
+.cardContainer__buttonSection__addBtn {
+  background-color: #2971ce;
+  border-radius: 6px;
+  border: 2px solid #d8e8f8;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 0.5vw;
+  padding: 11px 31px;
+}
